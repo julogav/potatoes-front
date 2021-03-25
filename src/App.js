@@ -1,4 +1,4 @@
-import React, { useEffect, useState, createRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -16,7 +16,7 @@ export const baseURL = 'https://lazypotatoes.herokuapp.com';
 
 function App() {
 	const [currentUser, setCurrentUser] = useState('');
-	const wrapper = createRef();
+	// const wrapper = createRef();
 
 	useEffect(() => {
 		const loggedInUser = localStorage.getItem('user');
@@ -25,7 +25,7 @@ function App() {
 			setCurrentUser(foundUser);
 		}
 
-		const node = wrapper.current;
+		// const node = wrapper.current;
 	}, []);
 
 	const value = { currentUser, setCurrentUser };

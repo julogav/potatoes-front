@@ -11,7 +11,7 @@ import axios from 'axios';
 import { baseURL } from '../../App';
 import { UserContext } from '../../contexts/UserContext';
 import './add-trip.css';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
 export const areas = [
 	'Select area',
@@ -89,7 +89,7 @@ export const areas = [
 
 const AddTrip = () => {
 	const [show, setShow] = useState(false);
-	const history = useHistory();
+	// const history = useHistory();
 	const { currentUser } = useContext(UserContext);
 	const [time, setTime] = useState();
 	const [date, setDate] = useState();

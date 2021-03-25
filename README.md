@@ -1,5 +1,8 @@
 Lazy Potatoes Project
 
+Front-end live @:
+https://happy-leakey-e8ce5e.netlify.app/
+
 The couch potatoes are rejoicing!
 We designed a WPA that will allow you to stay in your couch, no matter what you need.
 Need a bottle of milk? a burrakas? coffee? Your neighbors have you covered.
